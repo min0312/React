@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'EliceDigitalBaeum-Bd';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum-Bd.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NanumSquareRound';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  width: auto;
+}
+
+main {
+  background-color: #9091b3;
+  color: #05021b;
+  display: flex;
+}
+
+.content>h1{
+  font-family: "EliceDigitalBaeum-Bd";
+  padding: 5px;
+}
+
+.content > p {
+  padding: 3px;
+}
+
+.content {
+  font-family: 'NanumSquareRound';
+}
+
+main>section {
+  width: 25%;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+img {
+  border-radius: 25%;
+  padding: 5px;
+}
